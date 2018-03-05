@@ -1,0 +1,53 @@
+*:after,
+*:before,
+p a,
+a,
+.tg-socialicons li a,
+.tg-roundicontext,
+.tg-roundicontext .tg-usericonholder,
+.sub-menu,
+.mega-menu,
+.tg-btn,
+.tg-page figcaption,
+.tg-contributor,
+.tg-otherbook figure img,
+.tg-prev,
+.tg-next,
+.tg-prev span,
+.tg-next span,
+.tg-navigation ul li,
+.tg-thumb,
+.tg-thumb figure,
+.tg-thumb figure img,
+.tg-btn span,
+.tg-buynow
+
+
+
+{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.tg-topic,
+.tg-topic i,
+.tg-topiccontent,
+.tg-bottomicon,
+.tg-description,
+.tg-sidenavigation,
+.tg-sidenavholder{
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}
+.tg-buynow{
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-ms-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	transition: all 1000ms ease-in-out;
+}

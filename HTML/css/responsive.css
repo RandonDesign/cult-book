@@ -1,0 +1,263 @@
+@media (max-width:1199px){
+	.tg-bannerimg .tg-bannercontentholder {
+		padding:100px 0 0;
+		min-height: 650px;
+	}
+	.tg-bannercontent h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.tg-bannercontent .tg-description p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.tg-bannercontent .tg-btnarea .tg-btn {font-size: 15px;}
+	.tg-collectioncountericon {
+		width: 60px;
+		height: 60px;
+		font-size: 25px;
+		line-height: 60px;
+	}
+	.tg-thumbs {padding: 0 50px;}
+	.tg-titlepluscounter {padding: 3px 0 3px 10px;}
+	.tg-titlepluscounter h2 {font-size: 15px;}
+	.tg-titlepluscounter h3 {
+		margin: 0;
+		font-size: 30px;
+		font-weight: 300;
+		line-height: 30px;
+	}
+}
+@media (max-width:991px){
+	.tg-bannerimg .tg-bannercontentholder {
+		padding: 70px 0 0;
+		min-height: 550px;
+	}
+	.tg-frontcover:before {
+		border-top: 450px solid rgba(255, 255, 255, 0.20);
+		border-right: 250px solid transparent !important;
+	}
+	
+	.tg-featureimg {padding: 20px 40px 20px 0;}
+	.tg-backcover {left: 40px;}
+	.tg-backcover:after {
+		right: 12px;
+		width: 30px;
+	}
+	.tg-buynow .tg-btnarea .tg-btn {
+		font-size:12px;
+		padding: 0 15px;
+		line-height: 40px;
+	}
+	.tg-buynow .tg-btnarea .tg-readsample {line-height: 15px;}
+	.tg-buynow .tg-postbook .tg-backcover{
+		left: 10px;
+		border-radius:0;
+	}
+	.tg-buynow .tg-bannercontent {padding: 0 0 0 18px;}
+	.tg-buynow .tg-bannercontent h1 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.tg-buynow .tg-bannercontent .tg-bookby {line-height: 30px;}
+	.tg-bannercontent .tg-bookby {
+		padding: 0 10px;
+		font-size: 15px;
+		line-height: 40px;
+	}
+	.tg-bannercontent h1 {
+		clear: both;
+		margin:0 0 10px;
+		font-size: 35px;
+		line-height: 30px;
+	}
+	.tg-bannercontent .tg-description p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.tg-bannercontent .tg-btnarea {padding: 20px 0 0;}
+	.tg-bannercontent .tg-btnarea .tg-btn {
+		font-size: 15px;
+		padding: 0 25px;
+		line-height: 50px;
+	}
+	.tg-readsample{
+		clear: both;
+		font-size: 15px;
+		line-height: 20px;
+		margin: 15px 0 0;
+	}
+	.tg-inlucdebooks {margin: 10px 0 0;}
+	.tg-statistics {padding: 80px 0 60px;}
+	.tg-collectioncounter {
+		width: 50%;
+		padding: 15px;
+	}
+	.tg-collectioncounter:nth-child(3){padding-left:0;}
+	.tg-faqsimg,
+	.tg-textshortcode{padding:0 0 40px;}
+	.tg-aboutauthorshortcode{padding:0;}
+	.tg-aboutus,
+	.tg-aboutauthor,
+	.tg-videooverview,
+	.tg-testimonials{display:block;}
+	.tg-imgshadow{margin:0 0 40px;}
+	.tg-brands li{width:33.33%;}
+	.tg-footer{padding:70px 0 21px;}
+	.tg-footer .tg-logo {
+		top: -50px;
+		left: 50%;
+		position: absolute;
+		margin: 0 0 0 -85px;
+	}
+	.tg-contributorname h2 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+}
+@media (max-width:800px){
+	.tg-prev,
+	.tg-next{
+		-moz-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.tg-prev{left: 0;}
+	.tg-next{right:0;}
+}
+@media (max-width:767px){
+	.tg-dropdowarrow{display: block;}
+	.tg-nav{
+		width: auto;
+		float: right;
+	}
+	.tg-bannerimg .tg-bannercontentholder {min-height: 510px;}
+	.tg-featureimg {padding: 20px 50px 20px 0;}
+	.tg-backcover {left: 40px;}
+	.tg-sectiontitle h2{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.tg-sectionheadvthree .tg-sectiontitle span{
+		font-size:20px;
+		line-height:20px;
+	}
+	.tg-sectionheadvthree .tg-sectiontitle h2 {
+		font-size: 35px;
+		line-height: 30px;
+	}
+	.tg-formnewsletter{text-align:center;}
+	.tg-formnewsletter fieldset{padding:0;}
+	.tg-formcontactus .form-group,
+	.tg-formnewsletter fieldset .form-group{width:100%;}
+	.tg-formnewsletter fieldset .form-group{margin:0 0 20px;}
+	.tg-formnewsletter fieldset .tg-btn{position:static;}
+	.tg-addnav,
+	.tg-copyrights{
+		width:100%;
+		text-align:center;
+	}
+	.tg-addnav ul li{
+		float:none;
+		display:inline-block;
+	}
+}
+@media (max-width:640px){
+	.tg-nav{
+		top:0;
+		margin:0;
+	}
+	.tg-logoarea{text-align:center;}
+	.tg-postbook,
+	.tg-socialiconsarea{display:none;}
+	.tg-bannerimg .tg-bannercontentholder {
+		min-height: auto;
+		padding:140px 0 70px;
+	}
+	.tg-bannercontent{padding:0;}
+	.tg-bannercontent h1 {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	.tg-bannercontent h1 span{
+		margin:0 0 0 8px;
+		display:inline-block;
+	}
+	.tg-bannercontentholder > div > div >[class^="col-"],
+	.tg-bannercontentholder > div > div >[class*="col-"]{width:100%;}
+	.tg-socialcopyrights {padding: 180px 30px 20px 30px;}
+	.tg-brands li{width:50%;}
+	.tg-brands li:nth-child(3),
+	.tg-brands li:nth-child(7){background:#fff;}
+	.tg-brands li:nth-child(4),
+	.tg-brands li:nth-child(5),
+	.tg-brands li:nth-child(8){background:#f2f1f1;}
+	.tg-sectiontitle h2 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.tg-sectionheadvtwo .tg-sectiontitle h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.tg-overviewshortcode .tg-sectiontitle h2 span {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	.tg-contributorholder{width:100%;}
+	.tg-contributorholder:first-child,
+	.tg-contributorholder:nth-child(3){border-right:0;}
+	.tg-buynow{display:none;}
+	.tg-footer{margin:0;}
+}
+@media (max-width:568px){
+	.tg-featureimg {
+		float: none;
+		margin: 0 auto;
+		max-width: 250px;
+	}
+	.tg-collectioncounter:nth-child(even){padding-left:0;}
+	.tg-panel h4{
+		width:100%;
+		overflow:hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+}
+@media (max-width:480px){
+	.tg-btnclosenav{right: 250px;}
+	.tg-sidenavigation{width:250px;}
+	.tg-socialcopyrights .tg-socialicons li{padding:0;}
+	.tg-btnarea .tg-btn{
+		padding:0;
+		width:100%;
+	}
+	.tg-clientfeedback h3 span{
+		display:block;
+		margin:6px 0 0;
+	}
+	.tg-btnarea .tg-btn + .tg-btn{margin:15px 0 0;}
+	.tg-brands li{width:100%;}
+	.tg-brands li:nth-child(3),
+	.tg-brands li:nth-child(7){background:#f2f1f1;}
+	.tg-brands li:nth-child(4),
+	.tg-brands li:nth-child(6),
+	.tg-brands li:nth-child(8){background:#fff;}
+	.tg-addnav ul li{
+		width:100%;
+		padding:5px 0;
+	}
+	.tg-contributor figure{margin:0 0 20px;}
+	.tg-content,
+	.tg-clientfeedback{
+		width:100%;
+		float:left;
+	}
+	.tg-testimonialcontent figure{margin:0 0 20px;}
+	.tg-collectioncounter{width:100%;}
+	.tg-addnav ul li:last-child{padding-bottom:0;}
+}
+@media (max-width:479px){}
+@media (max-width:320px){}

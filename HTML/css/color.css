@@ -1,0 +1,54 @@
+/*==========================================================================================
+								Primery Theme Colors										
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-btn,
+.tg-stars span:after,
+.tg-firstletter,
+.tg-topic i,
+.tg-addnav ul li:hover a
+
+
+{ color: #ee3324; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-btn:hover,
+.tg-btn.tg-active,
+.tg-dropdowarrow,
+.tg-bookby,
+.tg-sectiontitle h2:before,
+.tg-title h3:before,
+.tg-panel h4:hover:after,
+.tg-panel h4.active:after,
+.tg-prev:hover,
+.tg-next:hover,
+.tg-navigation ul li a:hover,
+.tg-navigation ul li.tg-avtive a,
+.tg-navigation ul li a.current,
+.tg-btnclosenav,
+.tg-bannercontent .tg-btnarea .tg-btn
+
+
+{ background:#ee3324; }
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.tg-sidenavigation,
+.tg-buynow,
+.tg-btn:hover,
+.tg-btn.tg-active
+
+
+{ border-color: #ee3324; }
