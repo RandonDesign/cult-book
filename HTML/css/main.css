@@ -678,7 +678,7 @@ li.tg-rss a { background:#ff6600; }
 	margin:0;
 	font-size:36px;
 	font-weight:300;
-	line-height:30px;
+	line-height:45px;
 	padding:0 0 20px;
 	position:relative;
 }
@@ -2104,12 +2104,12 @@ li.tg-rss a { background:#ff6600; }
 ============================================= */
 .tg-sectionheadvthree .tg-sectiontitle span{
 	font-size:24px;
-	line-height:24px;
+	line-height:34px;
 	text-align:center;
 }
 .tg-sectionheadvthree .tg-sectiontitle h2{
 	padding:0;
-	font-size:50px;
+	font-size:30px;
 	line-height:40px;
 }
 .tg-sectionheadvthree .tg-sectiontitle h2:before{display:none;}
