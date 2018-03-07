@@ -1454,6 +1454,7 @@ li.tg-rss a { background:#ff6600; }
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+	height: 26	0px;
 }
 .tg-topicon,
 .tg-bottomicon{
@@ -1474,7 +1475,7 @@ li.tg-rss a { background:#ff6600; }
 	margin:0;
 	font-size:20px;
 	padding:0 0 20px;
-	line-height:20px;
+	line-height:26px;
 	position:relative;
 }
 .tg-title h3:before{
