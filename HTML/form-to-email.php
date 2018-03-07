@@ -13,24 +13,22 @@ $message = $_POST['message'];
 //Validate first
 if(empty($name)||empty($visitor_email)) 
 {
-    echo "Name and email are mandatory!";
+    header('Location: index.html');
     exit;
 }
 
 if(IsInjected($visitor_email))
 {
-    echo "Bad email value!";
+    header('Location: index.html');
     exit;
 }
 
-$email_from = 'jrfernhout@gmail.com';//<== update the email address
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from $name.\n".
-    "Here is the message:\n $message".
-    
-$to = "jrfernhout@gmail.com";//<== update the email address
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
+    $from = "$visitor_email";
+    $to = "eric@cultideas.com";
+    $subject = "$subject";
+    $message = "From: $name\n\nPhone: $phone\n\nSubject: $subject\n\nMessage: $message";
+    $headers = "From: $from\r\nReply-to: $visitor_email";
+    mail($to,$subject,$message, $headers);
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
