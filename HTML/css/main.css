@@ -951,7 +951,8 @@ li.tg-rss a { background:#ff6600; }
 }
 .tg-btnclosenav:hover{color:#fff;}
 .tg-fixedheader .tg-logo a{
-	width: 163px;
+	width: 263px;
+	margin-top: 5px;
 	position: relative;
 }
 .tg-fixedheader .tg-logo a img{
@@ -2169,7 +2170,8 @@ li.tg-rss a { background:#ff6600; }
 }
 .tg-footer .tg-logo{
 	float:none;
-	width:170px;
+	width:240px;
 	margin:0 auto;
+	margin-top: 5px;
 	display:block;
 }
