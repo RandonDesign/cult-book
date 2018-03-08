@@ -24,7 +24,7 @@ if(IsInjected($visitor_email))
 }
 
     $from = "$visitor_email";
-    $to = "eric@cultideas.com";
+    $to = "heidi@cultideas.com";
     $subject = "$subject";
     $message = "From: $name\n\nPhone: $phone\n\nSubject: $subject\n\nMessage: $message";
     $headers = "From: $from\r\nReply-to: $visitor_email";
