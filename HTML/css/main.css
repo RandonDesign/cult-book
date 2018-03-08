@@ -137,7 +137,7 @@ input[type="color"],
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-input[type="email"]{
+textarea,input[type="email"]{
 	text-transform: lowercase;
 }
 textarea.form-control{
@@ -1767,6 +1767,7 @@ li.tg-rss a { background:#ff6600; }
 /* =============================================
 			Testominails Style					
 ============================================= */
+
 .tg-testimonials{
 	width:100%;
 	float:left;
