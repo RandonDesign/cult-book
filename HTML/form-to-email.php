@@ -1,43 +1,30 @@
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
+// This is fine because it is a whole-page validation check, and
+// there's no sense loading server functions if you can't process
+if(!isset($_POST['submit'])) {
+    echo "error; you need to submit the form!";
 }
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$phone = $_POST['phone'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
-
-//Validate first
-if(empty($name)||empty($visitor_email)) 
-{
-    header('Location: index.html');
-    exit;
+ 
+// Ensure that it passes the checks
+function Validate($name, $email) {
+    if(empty($name) || empty($email) || IsInjected($visitor_email)) {
+        header('Location: index.html');
+        exit;
+    }
+    return true;
 }
-
-if(IsInjected($visitor_email))
-{
-    header('Location: index.html');
-    exit;
-}
-
-    $from = "$visitor_email";
-    $to = "heidi@cultideas.com";
-    $subject = "$subject";
-    $message = "From: $name\n\nPhone: $phone\n\nSubject: $subject\n\nMessage: $message";
+ 
+// The function that performs the sending
+function Send($from, $name, $subj, $msg, $phone) {
+    $to = "<excluded for privacy>";
+    $message = "From: $name\n\nPhone: $phone\n\nSubject: $subject\n\nMessage: $msg";
     $headers = "From: $from\r\nReply-to: $visitor_email";
-    mail($to,$subject,$message, $headers);
-//Send the email!
-mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
-
-
+    mail($to, $subj, $message, $headers);
+    return true;
+}
+ 
 // Function to validate against any email injection attempts
-function IsInjected($str)
-{
+function IsInjected($str) {
   $injections = array('(\n+)',
               '(\r+)',
               '(\t+)',
@@ -48,14 +35,25 @@ function IsInjected($str)
               );
   $inject = join('|', $injections);
   $inject = "/$inject/i";
-  if(preg_match($inject,$str))
-    {
+  if(preg_match($inject,$str)) {
     return true;
-  }
-  else
-    {
+  } else {
     return false;
   }
 }
-   
-?> 
+ 
+function Run($name, $email, $num, $subj, $msg) {
+    if(!Validate($name, $email)) {
+        exit;
+    }
+    Send($email, $name, $subj, $msg, $phone);
+    header('Location: thank-you.html');
+}
+ 
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$phone = $_POST['phone'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+ 
+Run($name, $visitor_email, $phone, $subject, $message);
